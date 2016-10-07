@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    background-color: #ededed;
+    height: 150px;
+    padding: 2px 0;  
+}
+
+.header img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 10px 0px 10px;
+    float: left;    
+}
+
+.textheader {
+    background-color: #88d0bf;
+    padding: 5px 0;
+    margin-bottom: 10px;   
+}
+
+.containercolor {
+    background-color: bisque;
+}
+
+
+.commentcolor {
+    background-color: darkgray;
+    padding: 2px 0;
+}
+
+/* Jag använder container till Aside, Section och Article eftersom det innefattar
+text som kan ändras och att dessa klasser är väldigt lika varandra. */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.aside {
+    image-orientation: center;
+    background-image: image
+}
+
+.header h1, h2 {
+    font-family: "Palatino";
+    margin-top: 10px;
+    margin-bottom: 5px;    
+}
+
+
+.nav {
+  margin: -5px;
+  padding: 5px 5px;
+}
+
+.nav li {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+  margin-right: 25px;
+}
+
+.supporting {
+  padding-top: 75px;
+  padding-bottom: 90px;
+  background: #ffffff;
+}
+
+.supporting .col {
+  float: left;
+  width: 50%;  
+}
+
+.supporting img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.supporting h2 {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 30px;
+    font-family: 'Palatino', sans-serif;
+}
+
+.supporting h3 {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 30px;
+    font-family: 'Palatino', sans-serif;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 30px;
+  margin-bottom: 40px;
+font-family: 'Raleway', sans-serif
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #ededed;
+  color: #000   ;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+   font-size: 50px;
+   padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
